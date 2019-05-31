@@ -7,3 +7,4 @@ node{
       def mvnHome = tool name: 'mymaven', type: 'maven'   
       sh "${mvnHome}/bin/mvn package"
    }
+}
